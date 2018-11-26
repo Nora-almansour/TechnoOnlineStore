@@ -1,0 +1,76 @@
+<html class="center" style="background-color:#C0C0C0;">
+
+<head>
+<title>Contact Us</title>
+<link rel="stylesheet" type="text/css" href="TechnoC.css"> <!-- linking to CSS file -->
+
+<img src="images/tlogo.png" alt="Techno site logo" border="0" usemap="#homepage"/>
+     <map id="homepage" name="homepage">
+<area shape="rect" coords="0,0,550,120" href="home.html"/> 
+</map>
+</head>
+
+<body style="background-color:#EFEFEF;">
+<div id="menu-centered">
+<ul>
+	<li><a href="home.html">Home</a></li>
+	<li><a href="Cameras.html">Camera Kind</a></li>		
+	<li><a href="pands.html">payment and shipment</a></li>
+	<li><a href="os.html">Offers and sales</a></li>
+	<li><a href="about.html">About</a></li>
+	<li><a href="cu.html">Contact us</a></li>
+</ul>
+</div>
+
+
+<form action="home.html" method="get">
+ <fieldset id="contact">
+<legend>Customer Information</legend>
+
+<input type="text" name="firstName" id="firstName" placeholder="First Name" />
+
+<input type="text" name="lastName"  id="lastName" placeholder="Last Name"/>
+   <br/>
+
+<input type="text" name="phone number"  id="phone number" placeholder="phone number"/>
+
+   <br/>
+<input type="text" name="address"  id="address" placeholder="address"/>
+   <br/>
+   
+<legend>product details:</legend>
+<input type="text" name="Model"  id="Model" placeholder="Model"/>
+   <br/>
+<input type="text" name="color"  id="color" placeholder="color"/>
+<br/>
+<input type="number" name="Quantity"  id="Quantity" placeholder="Quantity"/>
+  <br/>
+<legend>Other details:</legend>
+  <textarea  id="other details" name="other details" rows="5" cols="60" > </textarea>
+ </fieldset> 
+
+
+<fieldset id="Payment">
+<legend>payment method</legend>
+<input type="radio" id="pay1" name="After shipping" value="After shipping"  />
+<label for="door">After shipping</label>
+<br>
+<input type="radio" id="Transfer" name="Transfer" value="Transfer"/>
+<label for="tr">Transfer</label>
+
+</fieldset>
+
+<div align="center">
+<!-- Using JavaScript Event  -->
+<button type="reset" onclick="alert(' The information has been successfully sent!!!')">  submit  </button>
+<button type="submit" value="Submit">Cancle </button>
+<div>
+<br/>
+</form>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+</body>
+</html>

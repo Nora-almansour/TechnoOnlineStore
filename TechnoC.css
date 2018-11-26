@@ -1,0 +1,69 @@
+p.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 14em
+}
+
+#blockheader {
+    margin-left: auto;
+    margin-right: auto;
+    width: 14em
+}
+ div.blockmargin {
+    margin-left: auto;
+    margin-right: auto;
+    width: 14em
+}
+
+.center
+{
+margin:auto;
+width:70%;
+}
+
+
+body {background-color:#F0F0FF; font-size:20px}
+#ticno1        {width: 720px;  background-color: white}
+#pageContent {width: 720px; position: absolute; top: 45px; left: 5px;}
+
+h1
+{
+color:orange;
+text-align:left;
+}
+
+ul li a
+{
+ margin:0; padding:0; color:#333; font-size:15px; line-height:1.3; font-family:"Lucida Grande"; }
+
+<style type="text/css" media="screen">
+     body {
+          margin: 0;
+     }
+     #menu-centered {
+          background: orange;
+          padding: 10px;
+          margin-bottom: 10px;
+
+      }
+      #menu-centered ul {
+           margin: 0;
+           padding: 0;
+           text-align: center;
+      }
+      #menu-centered li {
+           display: inline;
+           list-style: none;
+           padding: 10px 5px 10px 5px;
+      }
+      #menu-centered a {
+           font: normal 20px/24px times-new-roman;
+           color: #fff;
+           text-decoration: none;
+           padding: 5px;
+           background: orange;
+      }
+      #menu-centered a:hover {
+           background: #5fb8eb;
+      }
+	  </style>
